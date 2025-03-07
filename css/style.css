@@ -1,0 +1,269 @@
+* {
+    margin:0; /*внешние отступы*/
+    padding: 0;
+}
+html,body {
+    background-color: #380577; /*цвет фона*/
+    color: white; /*цвет*/
+    height: 100%; /*высота*/
+}
+header, main, footer {
+    width: 1040px; /*ширина*/
+    margin: 0 auto; /*внешние отступы (авто)*/
+}
+#wrapper {
+    min-height: 100%; /*взять из макета*/
+    height: auto !important;
+    height: 100%; /*высота*/
+    width: 100%; /*ширина*/
+    vertical-align: middle;
+}
+header {
+    height: 120px; /*высота*/
+}
+main {
+    padding-bottom: 100px;
+}
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px; /*высота*/
+}
+.main__img--float {
+    width: 550px; /*ширина*/
+    margin-right: 40px; /*внешние отступы с права*/
+    float:left;
+}
+.main__img--float2 {
+    width: 550px; /*ширина*/
+    margin-right: 40px; /*внешние отступы с права*/
+    text-align: center; /*выравнивание текста по центру*/
+}
+#panorama {
+    width: 100%; /*ширина*/
+    height: 150px; /*высота*/
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}   
+.services__img {
+    width: 240px; /*ширина*/
+}
+.services__item {
+    width: 240px; /*ширина*/
+    margin-right: 40px; /*внешние отступы с права*/
+    margin-left: 40px; /*внешние отступы с лева*/
+    float:left; /*сдвиг в влево*/
+}
+.services {
+    padding: 35px; /*внутренние отступы*/
+}
+.text-align {
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1—invisible {
+    visibility: hidden; /*стиль*/
+}
+#logo {
+    text-transform: uppercase; /*стиль трансформации текста (все заглавные)*/
+    text-decoration: none; /*убрать подчёркивания*/
+    color:#fff; /*цвет текста*/
+    font-weight: bold; /*полужирный шрифт*/
+    line-height: 100px; /*высота линии текста*/
+    font-size: 24px; /*размер шрифта*/
+    float: left;
+
+}
+.pink {
+    color: rgb(247, 0, 255); /*цвет текста*/
+}
+.padding {
+    padding: 10px;
+}
+.footer__block {
+    display: inline-block; /*тип отображения блочное-строчное*/
+    width: 335px; /*ширина*/
+    text-transform: uppercase; /*стиль трансформации текста (все заглавные)*/
+    text-align: center;
+}
+.footer__icons {
+    display: inline-block; /*тип отображения блочное-строчное*/
+    width: 335px; /*ширина*/
+    text-align: right; /*выравнивание текста по правому краю*/
+    margin-left: 10px; /*внешние отступы с лева*/
+}
+.footer__img {
+    width: 50px; 
+}
+h1, h2 {
+    text-transform: uppercase; /*стиль трансформации текста (все заглавные)*/
+    font-style: bold; /*полужирный шрифт*/
+    font-size: 20px; /*размер шрифта*/
+    padding: 5px;
+}
+mark {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: "Oswald", sans-serif;
+}
+#mainnav ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0;
+    padding-left: 150px;
+    padding-top: 36px;
+    font-size: 25px; /*размер шрифта*/
+}
+#mainnav li {
+    display: inline; /*выстраиваем пункты меню в ряд*/
+}
+#mainnav a {
+    text-decoration: none; /*убираем подчёркивание*/
+    color: white;
+    margin-left: 20px; /*внешние отступы с лева*/
+    text-transform: uppercase; /*стиль трансформации текста (все заглавные)*/
+}
+header #mainnav {
+    padding-left: 109px;
+}
+#mainnav a:hover {
+    text-decoration: underline;
+}
+#mainnav li.active a {
+    font-weight: bold;
+}
+.new::after {
+    content: "new"; /*создания текста "new*/
+    font-size: 10px; /*размер шрифта*/
+    vertical-align: super; /*выравнивание по вертикали*/
+    background-color: violet; /*цвет заднего фона*/
+    border-radius: 2px; /*закругление углов*/
+    padding: 3px; /*внутренние отступы*/
+    margin-left: 5px; /*внешние отступы слева*/
+}
+.price table {
+    border-collapse: collapse;
+}
+.price th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.price th {
+    border-top: 5px solid #f60ad5;
+    border-bottom: 5px solid #f60ad5;
+}
+.price td {
+    text-align: center;
+    border-top: 2px solid white;
+}
+.price th:first-child {
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child {
+    width: 25%;
+}
+.price tr:nth-child(even) {
+    background-color:#8642da;
+}
+.price caption {
+    margin-right: 950px;
+    padding-bottom: 10px;
+}
+.footer__block a {
+    text-decoration: none; /*убираем подчёркивание*/
+    color: white;
+    text-transform: uppercase; /*стиль трансформации текста (все заглавные)*/
+}
+#contact-form select {
+    height: 35px;
+    width: 263px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="tel"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+} 
+#contact-form input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+} 
+#contact-form textarea {
+    width: 260px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="submit"] {
+    height: 30px;
+    width: 125px;
+    margin-bottom: 10px;
+    background-color: #8d64be;
+    text-transform: uppercase; /*стиль трансформации текста (все заглавные)*/
+} 
+#contact-form input[type="submit"]:hover {
+    height: 30px;
+    width: 125px;
+    margin-bottom: 5px;
+    background-color: #eddfff;
+}
+.clients table {
+    border-collapse: collapse;
+}
+.clients th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.clients td {
+    text-align: center;
+    border-top: 2px solid white;
+}
+.clients th:first-child {
+    width: 10%;
+}
+.clients th:nth-child(2), .price th:last-child {
+    width: 25%;
+}
+.clients tr:nth-child(odd) {
+    background-color:#8642da;
+}
+.clients caption {
+    margin-right: 950px;
+    padding-bottom: 10px;
+}
